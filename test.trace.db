@@ -1,0 +1,4 @@
+2021-12-08 19:54:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "USER" nie istnieje
+Table "USER" not found; SQL statement:
+insert into user (id, gender, hobby, password, username) values (null, ?, ?, ?, ?) [42102-200]

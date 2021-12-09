@@ -16,11 +16,11 @@ public class Start {
     }
     @EventListener(ApplicationReadyEvent.class)
     public void run() {
-        User user1 = new User("Suhy", "miszcz", "babochłop",Hobby.Picie);
+        User user1 = new User("Suhy", "miszcz", "babochłop",Hobby.Sport);
         userRepo.save(user1);
-        User user2 = new User("Chuj", "dupa", "lizodup",Hobby.Picie);
+        User user2 = new User("Chuj", "dupa", "lizodup",Hobby.Masturbacja);
         userRepo.save(user2);
-        User user3 = new User("Debil", "ssanie", "transtraktor",Hobby.Picie);
+        User user3 = new User("Debil", "kupa", "transtraktor",Hobby.Melanż);
         userRepo.save(user3);
 
     }

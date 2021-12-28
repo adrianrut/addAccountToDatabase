@@ -1,0 +1,20 @@
+user
+userDetails
+
+
+---> zapis przez formularz (front)
+kontroler, który przyjmuje postem body w formacie json - ma nie być pobierane z mapy tylko stworzony obiekt DTO
+walidacja danych odbieranych i zwracanie odpowiednich kodów błędu ( chodzi o np. HTTP.NOT_FOUND, HTTP.NOT_AUTHORIZED) - tutaj znajdź kod błędu validacji danych
+
+Listowanie użytkowników - serwis zwracający użytkowników korzystający z repository
+--> zwracany json w postaci tabeli z podstawowymi danymi użytkowników(bez details)
+----> dodatkowo podstawowy search na imię i nazwisko przez SERWIS ---> np repository pobranie WSZYSTKICH do serwisu i filtrowanie przez stream java8
+
+Edycja pól użytkownika z listy
+--> edycja istniejących wpisów w bazie
+
+usersDetails OneToOne relacja
+
+w encji user pole password -> zapisuj w formacie base64
+
+w samym sprawdzeniu nowe hasło na edycji nie może być jak stare

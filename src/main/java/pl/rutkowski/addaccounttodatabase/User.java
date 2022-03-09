@@ -23,9 +23,10 @@ public class User {
         this.hobby = hobby;
     }
 
-    public User () {
+    public User() {
 
     }
+
 
     public Long getId() {
         return id;
